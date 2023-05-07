@@ -1,0 +1,43 @@
+.one{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-top-color: blue ;
+    border-bottom-color: green ;
+    border-right-color: red ;
+    border-left-color: yellow ;
+    color: #ffffff;
+    margin: 100px  90px;
+
+    background-image: url(https://img.freepik.com/fotos-gratis/imagem-aproximada-em-tons-de-cinza-de-uma-aguia-careca-americana-em-um-fundo-escuro_181624-31795.jpg);
+    background-position: center;
+    background-size: cover;
+
+    
+
+}
+
+
+.two{
+    box-sizing: border-box ;
+
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-top-color: blue ;
+    border-bottom-color: green ;
+    border-right-color: red ;
+    border-left-color: yellow ;
+    color: #ffffff;
+    margin: 100px  90px;
+
+    background-image: url(https://img.freepik.com/fotos-gratis/imagem-aproximada-em-tons-de-cinza-de-uma-aguia-careca-americana-em-um-fundo-escuro_181624-31795.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}

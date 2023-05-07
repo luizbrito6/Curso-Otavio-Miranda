@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+div {
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    margin: 10px auto;
+    font-size: 20px;
+    color: white;
+}
+
+section {
+    
+    width: 600px;
+    height: 600px;    
+    background-color: black;
+    margin: 10px auto;
+    color: cornflowerblue;
+    
+}
+
+.classe {
+    text-transform: uppercase;
+    color: blue;
+}
+
+.div-classes-distintas{
+    background-color: crimson;
+    font-size: 20px;
+}
+
+div h1.segundoTitulo, div p.paragrafo{
+    text-align: center;
+}
+
+.classeA.classeB{
+    background-color: green;
+}
