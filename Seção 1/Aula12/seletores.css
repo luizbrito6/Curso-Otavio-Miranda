@@ -41,4 +41,8 @@ div, p{
     background-color: aqua;
 }
 
+.pai h1 + h2{
+    color: aqua;
+}
+
 
