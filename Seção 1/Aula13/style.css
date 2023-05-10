@@ -69,4 +69,26 @@ div main{
     margin: 10px;
 }
 
-div main:nth-child()
+.seletor-filhos{
+    height: auto;
+}
+
+.seletor-filhos main:nth-child(1){
+    background-color: aqua;
+}
+
+.seletor-filhos main:nth-child(even){
+    background-color: gold;
+}
+
+.seletor-filhos main:nth-child(odd){
+    background-color: #000000;
+}
+
+.seletor-filhos main:nth-child(3n){
+    background-color: red;
+}
+
+.seletor-filhos main:nth-child(3n + 3){
+    background-color: aqua;
+}
