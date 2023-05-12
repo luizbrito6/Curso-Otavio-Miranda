@@ -1,0 +1,26 @@
+body{
+ 
+}
+
+
+div{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin: 10px;
+    min-width: 150px;
+
+    
+}
+
+.um{
+    background-color: rgba(10%, 90%, 10%, 1);
+}
+
+.dois{
+    background-color:   #000000;
+}
+
+.tres{
+    background-color: green;
+}
