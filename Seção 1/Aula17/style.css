@@ -14,6 +14,7 @@ nav{
     position: fixed;
     width: 100%;
     z-index: 2;
+    
 }
 
 .centralizado{
@@ -45,9 +46,6 @@ nav ul li a{
 }
 
 
-
-
-
 div{
     height: 100vh;
 }
@@ -58,18 +56,71 @@ div{
 
 .absolute{
     background-color:#268fbe ;
+    position: relative;
 }
 
 .sticky{
     background-color: #aaaa91;
+    height: 600vh;
+    
 }
 
+.relative main{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+}
 
-
-.box{
-    width: 200px;
-    height: 200px;
-    background-color: royalblue;
+.relative .box{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 255, .6);
     position: relative;
-    bottom: 0;
+    top: 50px;
+    right: 50px;
+}
+
+.relative .box-2{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, .6);
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.position{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 0, 150, .6);
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.position-2{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 255, 0, .6);
+    position: absolute;
+}
+.position-3{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.box-sticky{
+    width: 250px;
+    height: 250px;
+    background: #ffb7c1;
+    border: 3px solid #ef7689;
+    position: sticky;
+    top: 0;
 }
