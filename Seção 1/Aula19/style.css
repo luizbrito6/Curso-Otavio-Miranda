@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pai{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    background-color: crimson;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.filho{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+
+}
+
+
+.pai-flex{
+    width: 500px;
+    height: 500px;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+
+.a{
+    flex-grow: 1;    
+    background-color: black;
+    height: 50px;
+    width: 50px;
+}
+
+.b{
+    flex-grow: 2;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    order: -1;
+}
+
+.c{
+    flex-grow: 3;
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+}
