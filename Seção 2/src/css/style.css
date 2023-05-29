@@ -259,3 +259,43 @@ thead, tfoot{
 tfoot{
     text-align: right;
 }
+
+/* CONTACT */
+
+fieldset{
+    width: 100%;
+    border: none;
+
+}
+
+fieldset legend{
+    font-size: 16rem;
+    margin-bottom: 15rem;
+    font-style: italic;
+}
+
+fieldset form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 90rem 90rem ;   
+    gap: var(--gap); 
+}
+
+.box-input{
+    /* background-color: #f60; */
+    height: 150rem;
+}
+.box-input input{
+    padding: 20rem;
+}
+.box-input textarea{
+    padding: 10rem 20rem;
+}
+.box-input input, .box-input textarea{
+    width: 100%;
+    margin-top: 5rem;
+}
+.box-textarea{
+    grid-area: 2 / 1 / 2 / 4;
+    
+}

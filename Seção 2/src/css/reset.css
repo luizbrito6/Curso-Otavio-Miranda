@@ -46,8 +46,7 @@ label{
     font-size: 18rem;
     color: var(--white-color);
     font-family: 'Open Sans';
-    display: block;
-
+    
 }
 :root{
     --white-color: #fff;
