@@ -214,39 +214,48 @@ article h3 {
 /* FIM GALLERY */
 
 /* PRICING */
-.box-table {
-    min-width: 640rem;
-    height: 100%;
-    overflow-x: auto;
 
+.box-pricing{
+    text-align: center; 
+    max-width:  640rem;
 }
 
-table {
-    min-width: 360rem;
-    border-collapse: collapse;
+.box-pricing h2, .box-pricing p{
+    color: var(--primary-color);
+}
+
+
+.box-pricing h2{
+    margin-bottom: 30rem;
+}
+
+.box-pricing p{
+    margin-bottom: 20rem;
+}
+
+
+/* TABLE */
+.box-table{
+    overflow: auto;
+}
+table{
     width: 100%;
+    border-collapse: collapse;
 }
-
-caption {
-    text-align: left;
-    font-style: italic;
+caption{
     font-size: 16rem;
-    margin: 0 0 10rem 0;
+    text-align: left;
+    margin-bottom: 10rem;
+    font-style: italic;
 }
-
-thead,
-tfoot {
+th, td{
+    border: 1rem solid var(--light-gray-color);
+    padding: 10rem;
+    white-space: nowrap;
+}
+thead, tfoot{
     background-color: var(--light-gray-color);
 }
-
-tr td,
-tr th {
-    white-space: nowrap;
-    border: 1px solid var(--light-gray-color);
-    padding: 10rem;
+tfoot{
+    text-align: right;
 }
-
-/* /* FIM PRICING  */
-
-/* CONTACT */
-
