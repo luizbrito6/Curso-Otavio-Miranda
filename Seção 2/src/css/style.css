@@ -49,7 +49,9 @@ header h1 a {
     font-family: 'Montserrat';
     font-weight: 700;
 }
-
+header .nav-menu{
+    position: relative;
+}
 header .nav-menu ul {
     display: flex;
     gap: 40rem;
@@ -260,8 +262,17 @@ tfoot{
     text-align: right;
 }
 
+/* FIM PRICING */
+
 /* CONTACT */
 
+.section-contact{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    justify-content: center;
+}
 fieldset{
     width: 100%;
     border: none;
@@ -282,20 +293,71 @@ fieldset form{
 }
 
 .box-input{
-    /* background-color: #f60; */
     height: 150rem;
 }
 .box-input input{
     padding: 20rem;
 }
 .box-input textarea{
-    padding: 10rem 20rem;
+    padding: 20rem 20rem 100rem 20rem
 }
 .box-input input, .box-input textarea{
     width: 100%;
     margin-top: 5rem;
+    outline: none ;
+    border: none;
+}
+
+.box-input input:focus, .box-input textarea:focus{
+    box-shadow: 0 0 10px 2px var(--secodary-color);
+}
+.box-input input::placeholder, .box-input textarea::placeholder{
+    font-size: 16rem;
+    text-transform: capitalize;
+    font-size: 'Open Sans';
+    color: #c4c4c4;
+
 }
 .box-textarea{
     grid-area: 2 / 1 / 2 / 4;
-    
+}
+
+.img-contact{
+    width: 250rem;
+}
+/*FIM CONTANCT  */
+
+
+/*  FOOTER  */
+footer{
+    padding: 20rem;
+}
+footer p{
+    font-size: 16rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+footer p span{
+    color: var(--secodary-color);
+}
+
+/* FIM FOOTER */
+.topo-btn{
+    font-size: 30rem;
+    width: 50rem;
+    height: 50rem;
+    margin-right: 20rem;
+    margin-bottom: 20rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--white-color);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }

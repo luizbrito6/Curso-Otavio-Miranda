@@ -1,0 +1,25 @@
+
+
+@media (max-width: 850px) {
+    
+    header{
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        gap: 40rem;
+    }
+    
+    ul{
+        flex-direction: column;
+    }
+    .menu{
+        top: 0;
+        bottom: 0;
+    }
+
+    
+
+    
+
+    
+}
