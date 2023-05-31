@@ -106,7 +106,7 @@ header .nav-menu ul li a:hover::after {
 }
 
 .hero .box-img img {
-    min-width: 500rem;
+    width: 100%;
 }
 
 /* FIM HERO */
@@ -122,12 +122,9 @@ header .nav-menu ul li a:hover::after {
 
 .box-info-intro {
     max-width: 640rem;
-    max-width: 640rem;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: center;
-    min-height: 100vh;
     text-align: center;
 }
 
@@ -147,11 +144,6 @@ header .nav-menu ul li a:hover::after {
 /* FIM INTRO */
 
 /* GRID ONE and TWO */
-.section-grid-one {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .section-grid-one h2 {
     margin: 0 0 10rem 0;
@@ -237,7 +229,6 @@ article h3 {
 }
 
 
-/* TABLE */
 .box-table{
     overflow: auto;
 }
@@ -263,69 +254,63 @@ tfoot{
     text-align: right;
 }
 
+
 /* FIM PRICING */
 
 /* CONTACT */
-
-.section-contact{
-    height: 150vh;
-    display: flex;
-    flex-direction: column;
-    gap: var(--gap);
-    justify-content: center;
-}
-fieldset{
-    width: 100%;
+fieldset {
     border: none;
-
+    
 }
 
 fieldset legend{
+    margin-bottom: 20rem;
     font-size: 16rem;
-    margin-bottom: 15rem;
     font-style: italic;
 }
 
 fieldset form{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 90rem 90rem ;   
-    gap: var(--gap); 
+    display: flex;
+    flex-flow: column wrap;
+    gap: 30rem;
+
+}
+
+form .inputs{
+    display: flex;
+    width: 100%;
+    gap: 30rem;
 }
 
 .box-input{
-    height: 150rem;
-}
-.box-input input{
-    padding: 20rem;
-}
-.box-input textarea{
-    padding: 20rem 20rem 100rem 20rem
-}
-.box-input input, .box-input textarea{
     width: 100%;
-    margin-top: 5rem;
-    outline: none ;
-    border: none;
 }
 
-.box-input input:focus, .box-input textarea:focus{
-    box-shadow: 0 0 10px 2px var(--secodary-color);
-}
-.box-input input::placeholder, .box-input textarea::placeholder{
-    font-size: 16rem;
-    text-transform: capitalize;
-    font-size: 'Open Sans';
-    color: #c4c4c4;
-
-}
-.box-textarea{
-    grid-area: 2 / 1 / 2 / 4;
+.box-input input{
+    width: 100%;
+    margin-top: 8rem;
 }
 
-.img-contact{
-    width: 250rem;
+.box-textarea, .box-textarea textarea{
+    width: 100%;
+    margin-top: 8rem;
 }
+
+
+
+.box-textarea textarea, .box-input input{
+    outline: none;
+    padding: 20rem;
+    font-size: 20rem;
+
+}
+
+.box-textarea textarea:focus, .box-input input:focus{
+    
+    border: 2px solid var(--secodary-color);
+}
+
+
 /*FIM CONTANCT  */
 
 

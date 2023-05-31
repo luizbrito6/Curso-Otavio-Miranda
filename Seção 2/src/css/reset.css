@@ -18,7 +18,7 @@ ul{
     list-style: none;
 }
 
-a, p{
+a, p, table, legend, label, ::placeholder{
     text-decoration: none;
     font-family: 'Open Sans';
 }
@@ -33,20 +33,17 @@ h2{
 }
 table{
     font-size: 20rem;
-    font-family: 'Open Sans';
 
 }
 legend{
     font-size: 16rem;
-    font-family: 'Open Sans';
     color: var(--white-color);
 
 }
 label{
     font-size: 18rem;
     color: var(--white-color);
-    font-family: 'Open Sans';
-    
+    display: block;
 }
 :root{
     --white-color: #fff;
