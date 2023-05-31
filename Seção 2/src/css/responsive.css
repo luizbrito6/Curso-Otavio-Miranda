@@ -12,14 +12,50 @@
     ul{
         flex-direction: column;
     }
+    
     .menu{
+        display: none;
         top: 0;
         bottom: 0;
     }
 
-    
+    .responsive-menu::after{
+        content: '≡';
+        width: 40rem;
+        height: 40rem;
+        position: fixed;
+        z-index: 2;
+        top: 20rem;
+        right: 20rem;
+        font-size: 40rem;
+        font-weight: 700;
+        cursor: pointer;
+        color: var(--white-color);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: var(--primary-color);
+    }
 
-    
+    #checkbox:checked ~ .menu{
+        display: block;
+    }
+
+    #checkbox:checked ~ .responsive-menu::after{
+        content: '×';
+    }
+
+    .divisao-header{
+        display: none;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+
 
     
 }
