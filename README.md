@@ -6,3 +6,6 @@ Repositório para Curso de JavaScript e TypeScript do básico ao avançado.
 
 
 > Seção 02 - Landing Page com HTML5 e CSS3
+
+
+> Seção 03 - JavaScript Básico - Para iniciantes
